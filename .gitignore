@@ -1,0 +1,17 @@
+Interface/target
+gitdataminer/target
+.metadata
+.recommenders
+JNIGPUMatrix/kernel.o
+JNIGPUMatrix/libMatrixProcessor.o
+JNIGPUMatrix/resources/
+JNIGPUMatrix/jar/
+*.dylib
+*.so
+*.o
+*.so.*
+*.log
+*.class
+*.sqlite
+*.jar
+*~
