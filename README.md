@@ -4,7 +4,7 @@
 
 Dominoes can support automated exploration of different relationships among project artifacts, where users have the flexibility to interactively combine and compose them.
 
-## Improvements made (As part of the Course Project - CSL7090 Software and Data Engineering)
+## Improvements made \n (As part of the Course Project - CSL7090 Software and Data Engineering)
 
 ### Improvements made in the existing dominoes tool:
 
