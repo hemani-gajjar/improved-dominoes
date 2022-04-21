@@ -9,13 +9,13 @@ Dominoes can support automated exploration of different relationships among proj
 ### Functional Enhancements:
 
 1. **Z-Score Operation** 
-###### Added a function to calculate the Z-Score. Z-score is a numerical measurement that describes a value's relationship to the mean of a group of values. Z-score is measured in terms of standard deviations from the mean. If a Z-score is 0, it indicates that the data point's score is identical to the mean score. Z-Score is added as an additional data analysis measure.
+##### Added a function to calculate the Z-Score. Z-score is a numerical measurement that describes a value's relationship to the mean of a group of values. Z-score is measured in terms of standard deviations from the mean. If a Z-score is 0, it indicates that the data point's score is identical to the mean score. Z-Score is added as an additional data analysis measure.
 
 2. **Lift Operation**
-###### Added a function that creates a new matrix that needs to be managed for deletion when any tile is not used anymore for increased efficiency. 
+##### Added a function that creates a new matrix that needs to be managed for deletion when any tile is not used anymore for increased efficiency. 
 
 3. **Add an Operation to check if a matrix is a Binary Matrix**
-###### Added a function to check if a matrix produced is a Binary Matrix. The result can be used to determine whether to use the matrix for graph visualizations.
+##### Added a function to check if a matrix produced is a Binary Matrix. The result can be used to determine whether to use the matrix for graph visualizations.
 
 
 ###  UI Improvements:
