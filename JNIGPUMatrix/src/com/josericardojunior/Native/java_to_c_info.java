@@ -13,4 +13,20 @@ public class java_to_c_info {
 		double z = Math.sqrt(2) * Erf.erfcInv(2*p);
 		return(z);
 	}
+
+	void computeZScoreAndSurvivalFunctions(
+        DescriptiveStatistics ds, 
+        RealDistribution dist, 
+        BiConsumer<Double, Double> cons
+    ) {
+        double variance = ds.getPopulationVariance();
+        double sd = Math.sqrt(variance);
+        double mean = ds.getMean();
+        for ( int index = 0; index < ds.getN(); ++index) {
+            double zscore = (ds.getElement(index)-mean)/sd;
+            double sf = 1.0 - dist.cumulativeProbability(Math.abs(zscore));
+            cons.accept(zscore, sf);
+        }
+    }
+
 }
