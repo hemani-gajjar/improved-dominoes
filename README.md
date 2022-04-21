@@ -4,20 +4,19 @@
 
 Dominoes can support automated exploration of different relationships among project artifacts, where users have the flexibility to interactively combine and compose them.
 
-## Improvements made 
-## (As part of the Course Project - CSL7090 Software and Data Engineering)
+## Improvements made (As part of the Course Project - CSL7090 Software and Data Engineering)
 
 ### Improvements made in the existing dominoes tool:
 
-1. Functional Enhancements:
+#### Functional Enhancements:
 
-- #### Z-Score Operation 
+1. **Z-Score Operation** 
 - Added a function to calculate the Z-Score. Z-score is a numerical measurement that describes a value's relationship to the mean of a group of values. Z-score is measured in terms of standard deviations from the mean. If a Z-score is 0, it indicates that the data point's score is identical to the mean score. Z-Score is added as an additional data analysis measure.
 
-- #### Lift Operation:
+2. **Lift Operation**
 - Added a function that creates a new matrix that needs to be managed for deletion when any tile is not used anymore for increased efficiency. 
 
-- #### Add an Operation to check if a matrix is a Binary Matrix:
+3. **Add an Operation to check if a matrix is a Binary Matrix**
 - Added a function to check if a matrix produced is a Binary Matrix. The result can be used to determine whether to use the matrix for graph visualizations.
 
 
