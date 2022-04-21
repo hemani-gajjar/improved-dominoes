@@ -222,6 +222,11 @@ SpMatf *createMatrix(int rows, int cols){
 	return mat;
 }
 
+void createNewmatrix(int rowsNew, int colsNew){
+	SpMatf *newmat = new SpMatf(rowsNew, colsNew);
+	return newmat;
+}
+
 void deleteMatrix(SpMatf *matrix){
 	delete matrix;
 	matrix = NULL;
