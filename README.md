@@ -12,6 +12,11 @@ Dominoes can support automated exploration of different relationships among proj
 * Anita Sarma (joined in January 2013)
 * Daniel Prett (joined in March 2014)
 
+# Improvements Team (for Course Project)
+
+* [Hemani Gajjar](https://github.com/hemani-gajjar)
+* [Jahnavi Juluri](https://github.com/jahnavi1111)
+
 # Documentation
 * [Dominoes: An Interactive Exploratory Data Analysis tool for Software Relationships](https://ieeexplore.ieee.org/document/9072287/)
 * [Niche vs. breadth: Calculating expertise over time through a fine-grained analysis](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=7081851&tag=1)
