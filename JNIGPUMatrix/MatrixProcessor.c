@@ -1,9 +1,7 @@
 /*
  * JGPUMatrix.c
- *
- *  Created on: Sep 23, 2013
- *      Author: josericardo
  */
+
 #include <jni.h>
 #include "com_josericardojunior_Native_MatrixProcessor.h"
 #include <stdio.h>
@@ -232,6 +230,41 @@ void deleteMatrix(SpMatf *matrix){
 	matrix = NULL;
 
 	//fprintf(stderr, "Matrix deleted!\n");
+}
+
+void MatrixLift(int arr[SIZE][SIZE], int N, int M){
+
+    for (int i = 0; i < N; i++) {
+  
+        for (int j = 0; j < M; j++) {
+
+            int minimum = arr[i][j];
+
+            int z = i;
+            int q = j;
+
+            int w = j;
+  
+            for (int k = i; k < N; k++) {
+  
+                for (; w < M; w++) {
+  
+                    if (arr[k][w] < minimum) {
+  
+                        minimum = arr[k][w];
+
+                        z = k;
+                        q = w;
+                    }
+                }
+                w = 0;
+            }
+
+            int temp = arr[i][j];
+            arr[i][j] = arr[z][q];
+            arr[z][q] = temp;
+        }
+    }
 }
 
 void setNonZeroData(SpMatf *mat, int *rows, int *cols, float *values, int size){
