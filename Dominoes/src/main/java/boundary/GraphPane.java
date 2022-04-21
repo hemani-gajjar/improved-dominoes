@@ -193,7 +193,7 @@ public class GraphPane extends BorderPane {
 			}
 		});
 
-        vv.setBackground(Color.white);
+        vv.setBackground(Color.grey);
         vv.getRenderContext().setEdgeShapeTransformer(new EdgeShape.Line());
         // add a listener for ToolTips
         vv.setVertexToolTipTransformer(new Transformer<String, String>() {
@@ -355,7 +355,7 @@ public class GraphPane extends BorderPane {
     	
     	hBox.setPadding(new Insets(15, 12, 15, 12));
     	hBox.setSpacing(10);
-    	hBox.setStyle("-fx-background-color: #66FFFF;");
+    	hBox.setStyle("-fx-background-color: #c7d5f0;");
     	
     	final ToggleGroup optionGroup = new ToggleGroup();
     	
