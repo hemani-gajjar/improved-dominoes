@@ -4,16 +4,18 @@ Dominoes is an approach for analyzing software repositories with thousands of ar
 
 Dominoes can support automated exploration of different relationships among project artifacts, where users have the flexibility to interactively combine and compose them.
 
-# Improvements Team (for Course Project)
+## Improvements made (As part of the Course Project - CSL7090 Software and Data Engineering)
+
+### Improvements Team (for Course Project)
 
 * [Hemani Gajjar](https://github.com/hemani-gajjar)
 * [Jahnavi Juluri](https://github.com/jahnavi1111)
 
-# Documentation
+# Relevant Documents
+
 * [Dominoes: An Interactive Exploratory Data Analysis tool for Software Relationships](https://ieeexplore.ieee.org/document/9072287/)
-* [Niche vs. breadth: Calculating expertise over time through a fine-grained analysis](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=7081851&tag=1)
-* [Multi-Perspective Exploratory Analysis of Software Development Data](http://www.worldscientific.com/doi/abs/10.1142/S0218194015400033)
-* [Exploratory Data Analysis of Software Repositories via GPU Processing](http://ksiresearchorg.ipage.com/seke/seke14paper/seke14paper_173.pdf)
+* [Report Document](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=7081851&tag=1)
+* [Demonstration Video](http://www.worldscientific.com/doi/abs/10.1142/S0218194015400033)
 
 # Usage
 
@@ -38,7 +40,6 @@ In order to start Dominoes, please follow the steps:
 # Development
 
 * [Source Code](https://github.com/gems-uff/dominoes)
-* [Issue Tracking](https://github.com/gems-uff/dominoes/issues)
 
 # Technologies
 
