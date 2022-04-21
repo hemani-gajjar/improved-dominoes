@@ -14,7 +14,7 @@ public class java_to_c_info {
 		return(z);
 	}
 
-	void computeZScoreAndSurvivalFunctions(
+	void computeZScore(
         DescriptiveStatistics ds, 
         RealDistribution dist, 
         BiConsumer<Double, Double> cons
