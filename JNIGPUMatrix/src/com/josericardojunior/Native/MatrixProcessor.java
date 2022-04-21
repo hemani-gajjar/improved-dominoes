@@ -74,4 +74,15 @@ public class MatrixProcessor {
 		//System.loadLibrary("cudart");
 		System.loadLibrary("MatrixProcessor");
 	}
+
+	static boolean isBinaryMatrix(int mat[][])
+    {
+        for (int i = 0; i < M; i++) {
+            for (int j = 0; j < N; j++) {
+                if (!(mat[i][j] == 0 || mat[i][j] == 1))
+                    return false;
+            }
+        }
+        return true;
+    }
 }
