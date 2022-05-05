@@ -36,7 +36,7 @@ Dominoes can support automated exploration of different relationships among proj
 
 * [Dominoes: An Interactive Exploratory Data Analysis tool for Software Relationships](https://ieeexplore.ieee.org/document/9072287/)
 * [Report Document](https://docs.google.com/document/d/1qaXYQ5A21LkntA0s2qrfMEcMrE0EDUvu_Vn9H2Ac1Q4/edit?usp=sharing)
-* [Demonstration Video](https://github.com/hemani-gajjar/improved-dominoes)
+* [Demonstration Video](https://drive.google.com/file/d/1_eJ4Xr2aTOljW1ogifmxHEkUzcXtuNDQ/view)
 * [Source Code](https://github.com/hemani-gajjar/improved-dominoes)
 
 ## Usage
